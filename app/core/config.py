@@ -24,6 +24,7 @@ class Settings(BaseSettings):
         "extra": "ignore"  # разрешить игнорировать неописанные переменные
     }
 
+    MAX_IMAGE_SIZE_MB: int = 10
     MODEL_VERSION: str = "model_weights.pt"
 
     @property
